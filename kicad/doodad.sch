@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 27 Feb 2011 12:01:01 AM EST
+EESchema Schematic File Version 2  date Wed 02 Mar 2011 08:34:47 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,12 +29,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:doodad-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 1 1
 Title ""
-Date "26 feb 2011"
+Date "2 mar 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -42,6 +43,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	3600 4400 3150 4400
+Wire Wire Line
+	2850 3800 2850 4000
 Wire Wire Line
 	4250 6400 5000 6400
 Wire Wire Line
@@ -64,7 +69,7 @@ Connection ~ 7950 2400
 Wire Wire Line
 	8000 2400 7950 2400
 Wire Wire Line
-	7950 2600 7850 2600
+	7850 2600 7950 2600
 Wire Wire Line
 	9800 3750 9800 3800
 Connection ~ 9800 3300
@@ -88,13 +93,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 5600 2550 3700
 Wire Wire Line
-	3600 4000 2850 4000
-Wire Wire Line
-	2850 4000 2850 3800
-Wire Wire Line
-	2850 3600 2850 3300
-Wire Wire Line
-	3150 3900 3150 4200
+	2850 4000 3600 4000
 Wire Wire Line
 	4100 4000 4800 4000
 Wire Wire Line
@@ -123,9 +122,9 @@ Wire Wire Line
 Wire Wire Line
 	3450 6550 3250 6550
 Wire Wire Line
-	3250 6500 3250 6550
+	3250 6550 3250 6500
 Wire Wire Line
-	1350 6500 3250 6500
+	3250 6500 1350 6500
 Wire Wire Line
 	5850 6650 5800 6650
 Wire Wire Line
@@ -239,7 +238,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 3300 2450 3300
 Wire Wire Line
-	2850 3300 6900 3300
+	6900 3300 2850 3300
 Wire Wire Line
 	6900 4200 6800 4200
 Wire Wire Line
@@ -312,8 +311,6 @@ Wire Wire Line
 Wire Wire Line
 	4900 4400 4100 4400
 Wire Wire Line
-	3600 4400 3150 4400
-Wire Wire Line
 	2550 3700 2450 3700
 Wire Wire Line
 	2850 4300 2850 5700
@@ -336,7 +333,7 @@ Wire Wire Line
 Wire Wire Line
 	8400 2400 8400 2550
 Wire Wire Line
-	7950 2250 7950 2600
+	7950 2600 7950 2250
 Wire Wire Line
 	1050 1300 1550 1300
 Connection ~ 1050 1300
@@ -354,6 +351,10 @@ Wire Wire Line
 Connection ~ 1650 5800
 Wire Wire Line
 	3650 6400 3750 6400
+Wire Wire Line
+	2850 3300 2850 3600
+Wire Wire Line
+	3150 3900 3150 4200
 $Comp
 L R R25
 U 1 1 4D68F8C9
@@ -433,7 +434,7 @@ P 3000 4300
 F 0 "SJ2" H 3050 4500 50  0000 C CNN
 F 1 "GS3" H 3050 4101 40  0000 C CNN
 	1    3000 4300
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR08
@@ -924,7 +925,7 @@ P 2700 3700
 F 0 "SJ1" H 2750 3900 50  0000 C CNN
 F 1 "GS3" H 2750 3501 40  0000 C CNN
 	1    2700 3700
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L C C1

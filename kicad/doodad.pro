@@ -1,4 +1,4 @@
-update=Tue 01 Mar 2011 07:00:51 PM EST
+update=Wed 02 Mar 2011 08:41:06 PM EST
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -97,13 +97,4 @@ MSegLar=150
 LastNetListRead=doodad.net
 [pcbnew/libraries]
 LibDir=
-LibName1=sockets
-LibName2=connect
-LibName3=discret
-LibName4=pin_array
-LibName5=divers
-LibName6=libcms
-LibName7=display
-LibName8=valves
-LibName9=led
-LibName10=dip_sockets
+LibName1=doodad-footprints
