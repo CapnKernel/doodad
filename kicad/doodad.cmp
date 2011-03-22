@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le Wed 02 Mar 2011 08:40:01 PM EST
+Cmp-Mod V01 Genere par PcbNew le Mon 21 Mar 2011 11:55:57 PM EST
 
 BeginCmp
 TimeStamp = /4D307561;
@@ -74,42 +74,42 @@ BeginCmp
 TimeStamp = /4D3076C0;
 Reference = JP17;
 ValeurCmp = TST;
-IdModule  = PINTST;
+IdModule  = SMDPAD;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D307EB7;
 Reference = JP18;
 ValeurCmp = TST;
-IdModule  = PINTST;
+IdModule  = SMDPAD;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D307700;
 Reference = JP19;
 ValeurCmp = CONN_4;
-IdModule  = SIL-4;
+IdModule  = SIL-4-mjd;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D307EBD;
 Reference = JP20;
 ValeurCmp = TST;
-IdModule  = PINTST;
+IdModule  = SMDPAD;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D3080E8;
 Reference = JP21;
 ValeurCmp = TST;
-IdModule  = PINTST;
+IdModule  = SMDPAD;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D3075CD;
 Reference = JP22;
 ValeurCmp = USB_2;
-IdModule  = USB_A;
+IdModule  = USB_PCB_FINGERS;
 EndCmp
 
 BeginCmp
@@ -235,7 +235,7 @@ BeginCmp
 TimeStamp = /4D307544;
 Reference = Q1;
 ValeurCmp = CRYSTAL;
-IdModule  = HC-33UV;
+IdModule  = CRYSTAL-mjd;
 EndCmp
 
 BeginCmp
@@ -438,7 +438,7 @@ BeginCmp
 TimeStamp = /4D30766C;
 Reference = S1;
 ValeurCmp = SW_PUSH;
-IdModule  = SW_PUSH_SMALL;
+IdModule  = SW_FSMJSMA;
 EndCmp
 
 BeginCmp
