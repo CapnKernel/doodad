@@ -1,0 +1,23 @@
+update=Fri 25 Mar 2011 05:22:13 PM EST
+last_client=pcbnew
+[pcbnew]
+version=1
+PadDrlX=0
+PadDimH=591
+PadDimV=591
+BoardThickness=630
+SgPcb45=1
+TxtPcbV=800
+TxtPcbH=600
+TxtModV=600
+TxtModH=600
+TxtModW=120
+VEgarde=100
+DrawLar=150
+EdgeLar=150
+TxtLar=120
+MSegLar=80
+LastNetListRead=
+[pcbnew/libraries]
+LibDir=
+LibName1=doodad
