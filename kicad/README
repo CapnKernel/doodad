@@ -8,6 +8,14 @@ otherwise have taken a long time in the GUI.  You can get KiCad here:
 
   FIXME: URL
 
+The design files are covered under the "Creative Commons
+Attribution-ShareAlike 3.0 Australia (CC BY-SA 3.0)" license:
+
+  http://creativecommons.org/licenses/by-sa/3.0/au/deed.en
+
+Basically, you are allowed to use, share and modify them, provided you
+give credit, and share under a license the same or similar to the CC BY-SA 3.0.
+
 If you're new to KiCad, you may be wondering what all these files are:
 
   doodad.pro
