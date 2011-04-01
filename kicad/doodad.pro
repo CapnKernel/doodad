@@ -100,4 +100,4 @@ MSegLar=150
 LastNetListRead=doodad.net
 [pcbnew/libraries]
 LibDir=
-LibName1=doodad-footprints
+LibName1=doodad
