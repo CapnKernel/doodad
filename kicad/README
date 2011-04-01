@@ -1,0 +1,72 @@
+These design files are for the schematic and board layout of the USB Doodad.
+The program used is KiCad, an open source package available for Windows,
+Linux and Mac.  I really like using KiCad, partly because it's free, partly
+because it seems far less crufty and more "willing" than Eagle, and partly
+because of the text-based file format, which has been very useful on several
+occasions because I can hand-edit the data to fix up something that would
+otherwise have taken a long time in the GUI.  You can get KiCad here:
+
+  FIXME: URL
+
+If you're new to KiCad, you may be wondering what all these files are:
+
+  doodad.pro
+
+    The project file.  It has some project-wide settings, such as which
+    libraries to use.
+
+  doodad.lib
+
+    Customised schematic symbols used in the USB Doodad.
+
+  doodad.sch
+
+    The schematic.
+
+  doodad.net
+
+    The list of connections between components.
+
+  doodad.cmp
+
+    The list of components for the board, and for each component, the name of
+    the footprint to use.
+
+  doodad.brd
+
+    The layout for the circuit board.
+
+  doodad.mod
+
+    Customised footprints for the surface mount parts used in the USB Doodad.
+
+  doodad.mdc
+
+    Info about customised footprints, such as description and keywords.
+
+In addition, there's a layoutless board just to make it easier to see the
+components used, to help select the component for footprint editing:
+
+  doodad-footprints.pro
+
+    The project file.
+
+  doodad-footprints.brd
+
+    The board file for the footprints used in the USB Doodad.
+
+And some extra stuff:
+
+  extra/
+
+    cvt.py
+
+      A small python script to convert millimeters to 1/10000 of an inch.
+      Useful for hand-editing footprint files when you're adding a component
+      where the size is specified in millimetres.
+
+    usb-coordinates.ods
+
+      An undocumented OpenOffice spreadsheet used for calculating the
+      coordinates for the USB contact fingers.
+
