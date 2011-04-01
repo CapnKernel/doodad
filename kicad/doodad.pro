@@ -1,4 +1,4 @@
-update=Sat 02 Apr 2011 09:46:25 AM EST
+update=Sat 02 Apr 2011 10:17:31 AM EST
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -15,7 +15,7 @@ EquName1=devcms
 version=1
 [eeschema]
 version=1
-LibDir=../kicad
+LibDir=.
 NetFmt=1
 HPGLSpd=20
 HPGLDm=15
@@ -82,9 +82,9 @@ LibName30=contrib
 LibName31=valves
 [pcbnew]
 version=1
-PadDrlX=0
-PadDimH=393
-PadDimV=3744
+PadDrlX=320
+PadDimH=600
+PadDimV=600
 BoardThickness=630
 SgPcb45=1
 TxtPcbV=800
@@ -97,7 +97,17 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=doodad.net
+LastNetListRead=
 [pcbnew/libraries]
-LibDir=
+LibDir=.
 LibName1=doodad
+LibName2=sockets
+LibName3=connect
+LibName4=discret
+LibName5=pin_array
+LibName6=divers
+LibName7=libcms
+LibName8=display
+LibName9=valves
+LibName10=led
+LibName11=dip_sockets
