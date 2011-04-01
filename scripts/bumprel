@@ -1,0 +1,33 @@
+#! /bin/sh
+
+error()
+{
+  echo "$0: $@"
+  exit 1
+}
+
+# Where are we?
+TOP=$(cd $(dirname $0)/..; pwd)
+
+cd $TOP || error "I looked in $TOP but I couldn't work out where we are."
+
+VFILE="$TOP/doc/doover.txt"
+[ -f "$VFILE" ] || error "Could not find version file at $VFILE"
+
+[ "$(wc -l < "$VFILE")" = 2 ] || error "Expected two lines in $VFILE"
+
+VER="$(grep -v '^#' < $VFILE)"
+
+echo $VER | grep '^[0-9][0-9]*$' > /dev/null || error "Version $VER is not a number"
+
+NEWVER=$(($VER+1))
+
+echo Bumping release version from $VER to $NEWVER.
+
+sed -i -r -e "s/^(This release is version )[0-9]+,/\1$NEWVER,/g" "$TOP/README"
+sed -i -r -e "s/(Rev \"v)[0-9]+(\")/\1$NEWVER\2/g" "$TOP/kicad/doodad.sch"
+sed -i -r -e "s/^(Rev \"v|Te \"USB Doodad v)[0-9]+(\")/\1$NEWVER\2/g" "$TOP/kicad/doodad.brd"
+
+sed -i -r -e "s/^[0-9]+\$/$NEWVER/g" "$VFILE"
+
+echo Done.
