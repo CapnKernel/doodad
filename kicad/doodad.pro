@@ -1,4 +1,4 @@
-update=Sat 02 Apr 2011 10:17:31 AM EST
+update=Tue 05 Apr 2011 06:57:52 PM EST
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -99,7 +99,7 @@ TxtLar=120
 MSegLar=150
 LastNetListRead=
 [pcbnew/libraries]
-LibDir=.
+LibDir=
 LibName1=doodad
 LibName2=sockets
 LibName3=connect
