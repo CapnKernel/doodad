@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: Tue 29 Mar 2011 06:24:32 PM EST
+EESchema-LIBRARY Version 2.3  Date: Sat 02 Apr 2011 14:26:17 EST
 #
 # GS3_MJD
 #
@@ -78,6 +78,10 @@ DEF SW_PUSH_MJD SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
 F1 "SW_PUSH_MJD" 0 -80 50 H V C CNN
 DRAW
+T 0 -250 50 60 0 0 0 3  Normal 0 C C
+T 0 -250 -200 60 0 0 0 4  Normal 0 C C
+T 0 300 50 60 0 0 0 1  Normal 0 C C
+T 0 300 -200 60 0 0 0 2  Normal 0 C C
 S -170 50 170 60 0 1 0 N
 P 3 0 1 0  -200 0  -200 -150  -200 -150 N
 P 3 0 1 0  200 0  200 -150  200 -150 N
