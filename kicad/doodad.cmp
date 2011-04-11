@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le Mon 21 Mar 2011 11:55:57 PM EST
+Cmp-Mod V01 Created by CvPCB (2010-05-09 BZR 2366)-stable date = Mon 11 Apr 2011 09:05:29 AM EST
 
 BeginCmp
 TimeStamp = /4D307561;
@@ -50,14 +50,14 @@ IdModule  = SM1206POL;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D3076CE;
+TimeStamp = /4D307BE4;
 Reference = D1;
 ValeurCmp = 3.6V;
 IdModule  = SM1206POL;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D307BE4;
+TimeStamp = /4D3076CE;
 Reference = D2;
 ValeurCmp = 3.6V;
 IdModule  = SM1206POL;
@@ -73,14 +73,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4D3076C0;
 Reference = JP17;
-ValeurCmp = TST;
+ValeurCmp = RESET;
 IdModule  = SMDPAD;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D307EB7;
 Reference = JP18;
-ValeurCmp = TST;
+ValeurCmp = ADC7;
 IdModule  = SMDPAD;
 EndCmp
 
@@ -94,14 +94,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4D307EBD;
 Reference = JP20;
-ValeurCmp = TST;
+ValeurCmp = 5V;
 IdModule  = SMDPAD;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D3080E8;
 Reference = JP21;
-ValeurCmp = TST;
+ValeurCmp = ⏚;
 IdModule  = SMDPAD;
 EndCmp
 
@@ -437,7 +437,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4D30766C;
 Reference = S1;
-ValeurCmp = SW_PUSH;
+ValeurCmp = BOOT;
 IdModule  = SW_FSMJSMA;
 EndCmp
 
