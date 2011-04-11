@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 Sheet 1 1
 Title "USB Doodad"
 Date "10 apr 2011"
-Rev "v31"
+Rev "v33"
 Comp ""
 Comment1 ""
 Comment2 ""
