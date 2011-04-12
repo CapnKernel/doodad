@@ -87,7 +87,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4D307700;
 Reference = JP19;
-ValeurCmp = CONN_4;
+ValeurCmp = EXPAND;
 IdModule  = SIL-4-mjd;
 EndCmp
 

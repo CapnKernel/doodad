@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 13 Apr 2011 12:28:16 AM EST
+EESchema Schematic File Version 2  date Wed 13 Apr 2011 08:59:25 AM EST
 LIBS:doodad
 LIBS:power
 LIBS:device
@@ -37,13 +37,21 @@ $Descr A4 11700 8267
 Sheet 1 1
 Title "USB Doodad"
 Date "12 apr 2011"
-Rev "v34"
+Rev "v35"
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 1450 6500 0    60   ~ 0
++5V
+Text Label 1450 6600 0    60   ~ 0
+D-
+Text Label 1450 6800 0    60   ~ 0
+GND
+Text Label 1450 6700 0    60   ~ 0
+D+
 Connection ~ 1800 5300
 Wire Wire Line
 	1500 5300 1800 5300
@@ -898,7 +906,7 @@ L CONN_4 JP19
 U 1 1 4D307700
 P 1150 5450
 F 0 "JP19" V 1100 5450 50  0000 C CNN
-F 1 "CONN_4" V 1200 5450 50  0000 C CNN
+F 1 "EXPAND" V 1200 5450 50  0000 C CNN
 	1    1150 5450
 	-1   0    0    1   
 $EndComp
