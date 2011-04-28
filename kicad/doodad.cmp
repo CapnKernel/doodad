@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-05-09 BZR 2366)-stable date = Wed 13 Apr 2011 05:15:34 PM EST
+Cmp-Mod V01 Created by CvPCB (2011-01-28 BZR 2765)-stable date = Thu 28 Apr 2011 09:52:48 AM EST
 
 BeginCmp
 TimeStamp = /4D307561;
@@ -372,64 +372,50 @@ IdModule  = SM1206;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D307D94;
+TimeStamp = /4D307DA4;
 Reference = R20;
 ValeurCmp = 0R;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D307D99;
-Reference = R21;
-ValeurCmp = 0R;
-IdModule  = SM1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D307DA4;
-Reference = R22;
-ValeurCmp = 0R;
-IdModule  = SM1206;
-EndCmp
-
-BeginCmp
 TimeStamp = /4D307E0E;
-Reference = R23;
+Reference = R21;
 ValeurCmp = 1k5;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D307DDA;
-Reference = R24;
+Reference = R22;
 ValeurCmp = 68R;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D68F8C9;
-Reference = R25;
+Reference = R23;
 ValeurCmp = 0R;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D307E7B;
-Reference = R26;
+Reference = R24;
 ValeurCmp = 10k;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D307DDF;
-Reference = R27;
+Reference = R25;
 ValeurCmp = 68R;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D307DA2;
-Reference = R28;
+Reference = R26;
 ValeurCmp = 0R;
 IdModule  = SM1206;
 EndCmp
@@ -444,15 +430,15 @@ EndCmp
 BeginCmp
 TimeStamp = /4D3075B4;
 Reference = SJ1;
-ValeurCmp = GS3;
-IdModule  = GS3-mjd;
+ValeurCmp = GS4;
+IdModule  = GS4-mjd;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D30879F;
 Reference = SJ2;
-ValeurCmp = GS3;
-IdModule  = GS3-mjd;
+ValeurCmp = GS4;
+IdModule  = GS4-mjd;
 EndCmp
 
 EndListe

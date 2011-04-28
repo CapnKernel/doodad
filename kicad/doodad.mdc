@@ -1,4 +1,4 @@
-PCBNEW-LibDoc----V1  Mon 21 Mar 2011 11:54:56 PM EST
+PCBNEW-LibDoc----V1  Thu 21 Apr 2011 07:07:39 PM EST
 #
 $MODULE GS3
 Li GS3
@@ -50,6 +50,11 @@ $MODULE SIL-4-mjd
 Li SIL-4-mjd
 Cd Connecteur 4 pibs
 Kw CONN DEV
+$EndMODULE
+#
+$MODULE GS4-mjd
+Li GS4-mjd
+Cd Custom 4-way solder pad
 $EndMODULE
 #
 $EndLIBDOC
