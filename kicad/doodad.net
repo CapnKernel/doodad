@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sat 30 Apr 2011 11:07:44 PM EST
+# EESchema Netlist Version 1.1 created  Sun 01 May 2011 09:02:50 PM EST
 (
  ( /4D307561 SM1206 C1 100n
   ( 1 N-000055 )
@@ -274,13 +274,13 @@
   ( 1 GND )
   ( 3 N-000049 )
  )
- ( /4D3075B4 GS4-mjd SJ1 GS4
+ ( /4D3075B4 GS4-mjd FUNC1 GS4
   ( 1 N-000046 )
   ( 2 N-000052 )
   ( 3 N-000008 )
   ( 4 N-000030 )
  )
- ( /4D30879F GS4-mjd SJ2 GS4
+ ( /4D30879F GS4-mjd FUNC2 GS4
   ( 1 N-000047 )
   ( 2 N-000048 )
   ( 3 N-000011 )

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 30 Apr 2011 11:05:43 PM EST
+EESchema Schematic File Version 2  date Sun 01 May 2011 09:01:37 PM EST
 LIBS:doodad
 LIBS:power
 LIBS:device
@@ -30,13 +30,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:doodad-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 1 1
 Title "USB Doodad"
-Date "30 apr 2011"
-Rev "v38"
+Date "1 may 2011"
+Rev "v39"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -387,10 +388,10 @@ Connection ~ 3450 6500
 Wire Wire Line
 	5800 6650 5800 6800
 $Comp
-L GS4_MJD SJ1
+L GS4_MJD FUNC1
 U 1 1 4D3075B4
 P 3150 3900
-F 0 "SJ1" H 3200 4050 50  0000 C CNN
+F 0 "FUNC1" H 3150 4050 50  0000 C CNN
 F 1 "GS4" H 3200 3750 40  0000 C CNN
 	1    3150 3900
 	1    0    0    -1  
@@ -539,10 +540,10 @@ F 1 "PWR_FLAG" H 1800 5880 30  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L GS4_MJD SJ2
+L GS4_MJD FUNC2
 U 1 1 4D30879F
 P 3150 4400
-F 0 "SJ2" H 3200 4550 50  0000 C CNN
+F 0 "FUNC2" H 3150 4550 50  0000 C CNN
 F 1 "GS4" H 3200 4250 40  0000 C CNN
 	1    3150 4400
 	1    0    0    -1  

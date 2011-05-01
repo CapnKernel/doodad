@@ -1,4 +1,4 @@
-update=Fri 29 Apr 2011 01:23:51 AM EST
+update=Sun 01 May 2011 09:43:05 PM EST
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -97,7 +97,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=
+LastNetListRead=doodad.net
 [pcbnew/libraries]
 LibDir=
 LibName1=doodad
