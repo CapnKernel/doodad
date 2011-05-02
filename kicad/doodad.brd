@@ -21,7 +21,7 @@ $SHEETDESCR
 Sheet A4 11700 8267
 Title "USB Doodad"
 Date "2 may 2011"
-Rev "v39"
+Rev "v40"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -3425,7 +3425,7 @@ Po 23400 15200 300 400 75 2700
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "USB Doodad v39"
+Te "USB Doodad v40"
 Po 24400 16200 600 800 120 2700
 De 21 1 0 Normal
 $EndTEXTPCB
